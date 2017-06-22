@@ -218,6 +218,7 @@ footer {
 .social-media{
 	color: #fff;
 	margin-left: 8px;
+    margin-top: 114%;
 }
 .app-store{
 	width: 150px;
@@ -242,7 +243,13 @@ li:hover{
 .copyright{
 	text-align: center;
 }
-
+.visible{
+    margin-top: 20px;
+}
+.pad-photo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 @media (max-width: 90em) {
     h1,h2,h3{
     font-size: 16px;
