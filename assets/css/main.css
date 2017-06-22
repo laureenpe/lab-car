@@ -28,7 +28,6 @@
     background-color: #f7b617;
 	position: absolute;
     right: 0;
-    top: 31%;
     width: 41%;
 	box-sizing: border-box;
 	padding: 40px 60px 50px 40px;
@@ -56,34 +55,40 @@ color: white;
 }
 .button{
     font-weight: 700;
-    width: 53%;
+    width: 100%;
 }
 .yellow-box img{
     width: 19%;
 }
  input{
-border-bottom: 1px solid white;
-border-top: none;
-border-left: none;
-border-right: none;
-background-color:#f7b617;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color:#f7b617;
 
  }
  /*DOWNLOAD APP*/
  .download-app{
-background-color:#f7b617;
-width: 100%;
-color: white;
-padding-bottom: 30px;
-padding-top: 30px;
+    background-color:#f7b617;
+    width: 100%;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
  }
  .download-app p{
 font-size: 20px;
  }
  .border{
-border-top: 1px solid white;
-border-bottom: 1px solid white;
-border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    padding-bottom: 28px;
+ }
+ .download-app img{
+    width: 63%;
+    margin-top: 2%;
+    margin-bottom: 2%;
  }
  /*DRIVE CONTAINER*/
  .drive{
@@ -96,21 +101,18 @@ border-right: 1px solid white;
     
  }
  .gray-box{
-    margin-left: 31%;
+    margin-left: 19%;
     margin-bottom: 35%;
     width: 80%;
     box-sizing: border-box;
-    padding: 18px 58px 46% 40px;
+    padding: 18px 58px 39% 40px;
     color: white;
     background-color: black;
     opacity: 0.5;
+    position: absolute;
  
  }
- .cont-save {
-    margin-bottom: 10px;
-    color: white;
-    
-}
+
 .cont-save button{
     background-color: #f7b617;
     border-radius: 3px;
@@ -128,6 +130,13 @@ border-right: 1px solid white;
     width: 100%;
     color: white;
     font-family: 'icomoon';
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.find-me{
+    margin-right: 2%;
+        padding-left: 6%;
+    padding-top: 2%;
 }
 .btn-block {
     display: block;
@@ -136,16 +145,104 @@ border-right: 1px solid white;
 }
 .form-control {
     width: 58%;
+    
+}
+.white{
+    color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 7px;
+}
+input::-webkit-input-placeholder {
+  color: white;
+}
+input:-moz-placeholder {
+  color: white; 
+}
+input:-ms-input-placeholder { 
+  color: white; 
 }
 .tarifas input{
     margin-bottom: 20px;
+    background-color:#f7b617;
 }
+
 /*MAP*/
 #map{
-    height: 65vh;
-    border: 2px solid white;
+    height: 100vh;
+    border: 7px double white;
     width: 35%;
+    margin-bottom: 40px;
 }
 .map{
     margin-top: 20px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #2B2B2B;
+    color: #fff;
+    padding: 60px;
+}
+.options{
+	line-height: 30px;
+}
+.market-place{
+	margin-top: 120px;
+}
+
+.social-media{
+	color: #fff;
+	margin-left: 8px;
+}
+.app-store{
+	width: 150px;
+	margin-top: 10px;
+    display: block;
+
+}
+.sociales:hover{
+	color: burlywood;
+}
+
+li{
+	color: #fff;
+}
+ a {
+    list-style:none;
+
+	}
+li:hover{
+	color: burlywood;
+}
+.copyright{
+	text-align: center;
+}
+
+@media (max-width: 30em) {
+    h1,h2,h3{
+    font-size: 16px;
+    }
+  .border {
+   border: 1px solid white;
+    
+  }
+  .download-app{
+      padding: 30px;
+  }
+.cont-save{
+    width: 100%;
+}
+.gray-box{
+    margin-left: 0%;
+    margin-right: 32%;
+    margin-bottom: 29%;
+    width: 100%;
+    padding: 39px 52px 44% 39px;
+    position: absolute;
+}
+.find-me {
+    padding-left: 7%;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
