@@ -1,4 +1,4 @@
-var map;//var global para poderla llamar 
+/*var map;//var global para poderla llamar 
 
 function initMap() {
     var directionsService = new google.maps.DirectionsService;

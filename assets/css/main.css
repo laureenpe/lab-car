@@ -72,6 +72,9 @@ header{
 	align-items: center;
 	
 }
+.yellow-box .start-logo {
+    width: 82%;
+}
 /*inputs*/
 .inputs{
 margin-top: 20px;
@@ -84,6 +87,7 @@ color: white;
     font-weight: 700;
     width: 100%;
 }
+
 .yellow-box img{
     width: 19%;
 }
@@ -170,8 +174,12 @@ font-size: 20px;
 }
 .btn-block {
     display: block;
-    width: 49%;
+    width: 40%;
     margin-left: 64px;
+    border-color: #f7b617;
+}
+btn-default:hover {
+    border-color: #f7b617;
 }
 .form-control {
     width: 58%;
@@ -195,10 +203,10 @@ input:-ms-input-placeholder {
 .tarifas input{
     margin-bottom: 20px;
     background-color:#f7b617;
+    width: 68%;
 }
 
-/*
-*/
+/*MAP*/
 #map{
     height: 83vh;
     border: 7px double white;
@@ -297,3 +305,8 @@ li:hover{
     padding: 0;
 }
 
+.btn-block{
+    margin-left: 103px;
+}
+
+}
