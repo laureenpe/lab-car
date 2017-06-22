@@ -1,6 +1,10 @@
 *{
-    margin: 0 auto;
-    padding: 0;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 /*navbar*/
@@ -32,6 +36,8 @@
 	box-sizing: border-box;
 	padding: 40px 60px 50px 40px;
     color: white;
+    flex-direction: column;
+
 
 
 }
@@ -169,7 +175,7 @@ input:-ms-input-placeholder {
 
 /*MAP*/
 #map{
-    height: 100vh;
+    height: 83vh;
     border: 7px double white;
     width: 35%;
     margin-bottom: 40px;
