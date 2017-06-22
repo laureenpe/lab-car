@@ -208,7 +208,7 @@ input:-ms-input-placeholder {
 
 /*MAP*/
 #map{
-    height: 83vh;
+    height: 64vh;
     border: 7px double white;
     width: 35%;
     margin-bottom: 40px;
