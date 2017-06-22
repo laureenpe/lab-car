@@ -1,4 +1,4 @@
-/*var map;//var global para poderla llamar 
+var map;//var global para poderla llamar 
 
 function initMap() {
     var directionsService = new google.maps.DirectionsService;
@@ -74,4 +74,3 @@ function funcionExito(posicion) {
 function funcionError(error) {
     alert("Tenemos un problema con encontrar tu ubicacion");
 }
-/*
