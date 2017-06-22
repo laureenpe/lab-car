@@ -5,6 +5,9 @@
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    font-family: 'Roboto', sans-serif;
+
+
 }
 
 /*navbar*/
@@ -37,6 +40,8 @@
 	padding: 40px 60px 50px 40px;
     color: white;
     flex-direction: column;
+    top: 23%;
+    overflow: hidden;
 
 
 
@@ -123,15 +128,18 @@ font-size: 20px;
     
  }
  .gray-box{
-    margin-left: 19%;
-    margin-bottom: 35%;
+    margin-left: 14%;
+    margin-bottom: 42%;
     width: 80%;
     box-sizing: border-box;
-    padding: 18px 58px 39% 40px;
+    padding: 20px 0 57% 55px;
     color: white;
     background-color: black;
     opacity: 0.5;
     position: absolute;
+    overflow: hidden;
+
+
  
  }
 
@@ -250,7 +258,7 @@ li:hover{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-@media (max-width: 90em) {
+@media (max-width: 30em) {
     h1,h2,h3{
     font-size: 16px;
     }
