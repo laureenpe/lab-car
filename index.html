@@ -10,8 +10,10 @@
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- glyphicons-->
+  <link rel="stylesheet" href="assets/fonts/style.css">
   <!-- OWN CSS-->
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body>
@@ -101,7 +103,7 @@
                 <h3>
                   Conduce cuando quieras
                 </h3>
-                <h4>	LabCar es una opción flexible para alcanzar tus metas financieras.</h4>
+                <h4> LabCar es una opción flexible para alcanzar tus metas financieras.</h4>
                 <button type="">Conviertete en Conductor</button>
               </div>
             </div>
@@ -112,20 +114,38 @@
   </section>
 
   <!-- Tarifas-->
-  <section class="tarifas">
-    
+  <section class="tarifas container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-xs-6">
+        <h2>Tarifas</h2>
+        <h3 id="encuentrame" >Consulta las tarifas LabCar aquí</h3>
+        <div class="col-md-1">
+          <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+        </div>
+        <div class="col-md-11">
+          <input id="start" class="form-control" type="text" placeholder="Introduce tu localización">
+        </div>
+        <div class="col-md-1">
+          <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+        </div>
+        <div class="col-md-11">
+          <input id="end" class="form-control" type="text" placeholder="Introduce tu destino">
+        </div>
+        <div>
+          <button id="route" type="button" class="btn btn-large btn-block btn-default"><strong>¡Trazar Ruta!</strong> </button>
+        </div>
+      </div>
+      <div id="map" class="col-lg-6 col-md-6 col-xs-6 map"></div>
+    </div>
+
   </section>
-
-
-
-
-
-
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
+      <!-- Google maps-->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZz8yPIhZkUVCLCzYucfdq9oB9l4sidXg&callback=initMap&libraries=places"></script>
+
   <script src="assets/js/main.js">
 
   </script>
